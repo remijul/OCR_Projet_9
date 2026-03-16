@@ -1,0 +1,78 @@
+# ==================== PYTHON ====================
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==================== DATABASE ====================
+*.db
+*.sqlite
+*.sqlite3
+databases/*.db
+!databases/.gitkeep
+
+# ==================== IDE ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# ==================== ENVIRONMENT ====================
+.env
+.env.local
+.env.*.local
+
+# ==================== TESTS ====================
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+.hypothesis/
+.tox/
+
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.bak
+
+# ==================== LOGS ====================
+*.log
+logs/
+
+# ==================== JUPYTER ====================
+.ipynb_checkpoints/
+# *.ipynb
+
+# ==================== DOCUMENTS FORMATEUR ====================
+# Documents pédagogiques à ne pas publier
+docs_formateur/
+
+# ==================== DONNÉES SENSIBLES ====================
+# Clés API et secrets (ne JAMAIS commiter)
+*.key
+*.pem
+*.cert
+secrets/
+.secrets/
+
+# ==================== BUILD & DEPLOY ====================
+*.egg
+*.whl
+.eggs/
+*.manifest
+*.spec
