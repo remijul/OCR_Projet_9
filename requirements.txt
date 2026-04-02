@@ -48,9 +48,10 @@ pytest
 # API (Phase 4)
 # ============================================
 fastapi
+uvicorn
 
 # ============================================
 # IA (Phase 5)
 # ============================================
-prophet
-statsmodels  
+# prophet # prevu mais non utilisé
+scikit-learn 
